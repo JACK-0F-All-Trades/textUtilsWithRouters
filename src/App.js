@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import './index.css';
 import Navbar from './components/Navbar';
 
 import TextForm from './components/TextForm';
@@ -12,6 +13,9 @@ import Alert from './components/Alert';
 function App() {
   const [mode, setMode] = useState("light");
   const [alert, setAlert] = useState(null);
+  // const [theme, setTheme] = useState({
+  //   display: "none"
+  // })
 
   const showAlert = (message, type) => {
     setAlert({

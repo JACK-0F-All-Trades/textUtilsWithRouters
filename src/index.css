@@ -11,3 +11,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.inside-modal{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.bg-yellow{
+  background-color: hsl(52,75%, 60%);
+}
+
+.bg-red{
+  background-color: hsl(352,75%, 60%);
+}
+
+.bg-green{
+  background-color: hsl(152,75%, 60%);
+}
+
+.bg-blue{
+  background-color: hsl(202,75%, 60%);
+}
+
+.bg-darkblue{
+  background-color: #001534;
+}
+
+.red-color{
+  background-color: hsl(352,75%, 60%);
+}
+
+.grey-color{
+  background-color: grey;
+}
+
+.black-color{
+  background-color: black;
+}
+
+.aquamarine-color{
+  background-color: aquamarine;
+}
+
+.orange-color{
+  background-color: orange;
+}
+
+.radius-bg-50{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.radius-50{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+
